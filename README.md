@@ -4,7 +4,7 @@ used in gcc high
 ```
 go get -u github.com/jadams/o365-attack-toolkit-us
 cd ${GOPATH:-$HOME/go}/src/github.com/jadams/o365-attack-toolkit-us
-go build
+mv ../../../../bin/o365-attack-toolkit-us .
 ./o365-attack-toolkit-us
 ```
 
