@@ -1,3 +1,13 @@
+# o365-attack-toolkit-us
+used in gcc high
+
+```
+go get -u github.com/jadams/o365-attack-toolkit-us
+cd ${GOPATH:-$HOME/go}/src/github.com/jadams/o365-attack-toolkit-us
+go build
+./o365-attack-toolkit-us
+```
+
 ## What is o365-attack-toolkit
 
 o365-attack-toolkit allows operators to perform an OAuth phishing attack and later on use the Microsoft Graph API to extract interesting information.
